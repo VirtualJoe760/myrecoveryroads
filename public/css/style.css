@@ -1,0 +1,244 @@
+* {
+    font-family: Quicksand;
+    text-indent: ;
+    caret-color: transparent;
+
+}
+
+body {
+    background-image: url('../assets/background.png');
+    background-size: cover;
+    color: white;
+    
+
+}
+
+.h1 {
+    font-size: 80px;
+}
+
+.icon {
+    font-size: 70px;
+    padding: 5rem;
+}
+
+
+.container {
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+
+}
+
+.icon .hr-style {
+    width: 50%;
+    display: flex;
+    float: center;
+}
+
+/**  When I'm ready to revisit the Parallax layout I will implement this code.
+.parallax-addiction {
+    background-image: url('../assets/addiction.jpeg');
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.addiction {
+    height: 1000px;
+}
+*/
+
+.hospital {
+    background-image: url('../assets/hospital.svg');
+}
+
+.header {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex: content;
+    padding-top: 20rem;
+    /** height: 100rem; This is the height for Parallax */
+}
+
+.btn-sub {
+    border-radius: 5%;
+    border: 1px;
+    border-color: black;
+
+
+}
+
+.sub-input {
+    position: relative;
+    align-items: center;
+    border-radius: 30px;
+    padding: 5px;
+    width: 600px;
+    border: none;
+    height: 50px;
+    box-shadow: 5px 5px lightblue;
+
+}
+
+.story-sub {
+    padding: 1rem;
+}
+
+.btn-sub {
+    position: relative;
+    right: 0px;
+    left: 240px;
+    bottom: 42px;
+    color: blue;
+
+}
+
+.btn-sub:hover {
+    color: green;
+    font-style: bold;
+}
+
+.subscribe {
+    margin-top: 5rem;
+}
+
+.our-program {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.we-help {
+    margin-bottom: 8rem;
+}
+
+.application-heading {
+    text-align: center;
+}
+
+.form-label {
+    padding-top: 5px;
+}
+
+.upload-container {
+    padding-top: 10px;
+}
+
+.apply {
+    margin-top: 5rem;
+    margin-left: 700px;
+    margin-right: 700px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: RGBA(57, 77, 100, 0.64);
+    border-radius: 50px;
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    height: 10%;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.applied {
+    padding: 4rem;
+}
+
+.applied: p {
+    text-align: left;
+}
+    
+    
+
+
+@media only screen and (max-width: 600px) {
+    .header {
+        padding-top: 10rem;
+    }
+
+    .header::h1 {}
+
+
+    .sub-input {
+        left: 0;
+        padding: 1rem;
+        top: 50px;
+
+
+    }
+
+    .btn-sub {
+        bottom: 0px;
+        right: 0px;
+        left: 100px;
+        top: 8px;
+    }
+
+
+    .apply {
+        margin: 0px;
+        padding: 0px;
+        border-radius: 0px;
+    }
+
+    .submit-button {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    .btn-sub {
+        bottom: 42px;
+        right: 0px;
+        left: 240px;
+
+    }
+   
+}
+
+@media only screen and (max-width: 2100px) {
+    .apply {
+        margin: 10rem 0 0;
+        padding: 0px;
+        border-radius: 0px;
+    }
+    .applied {
+        text-align: center;
+        padding: 4rem;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .sub-input {
+        width: 450px;
+        
+    }
+
+    .btn-sub {
+        left: 160px;
+    }
+
+
+}
+
+@media only screen and (max-width: 495px) {
+    .sub-input {
+        width: 350px;
+    }
+    .btn-sub {
+        left: 110px;
+    }
+}
